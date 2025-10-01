@@ -1,0 +1,22 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "acme",
+    "homepage": "https://acme.com",
+    "items": [
+        {
+            "name": "card",
+            "type": "registry:block",
+            "title": "card",
+            "description": "A simple hello world component.",
+            "files": [
+                {
+                    "path": "registry/default/components/button.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        }
+    ],
+    "scripts": {
+        "registry:build": "shadcn build"
+    }
+}

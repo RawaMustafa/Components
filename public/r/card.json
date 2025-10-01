@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card",
+  "type": "registry:block",
+  "title": "card",
+  "description": "A simple hello world component.",
+  "files": [
+    {
+      "path": "registry/default/components/button.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { cn } from \"@/lib/utils\"\n\nexport function MyButton({ children, className, ...props }: React.ComponentProps<\"button\">) {\n    return (\n        <button\n            className={cn(\"rounded-lg bg-green-600 text-white px-4 py-2 hover:bg-green-700\", className)}\n            {...props}\n        >\n            {children}\n        </button>\n    )\n}\n",
+      "type": "registry:component"
+    }
+  ]
+}
