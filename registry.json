@@ -10,13 +10,22 @@
             "description": "A simple hello world component.",
             "files": [
                 {
+                    "path": "registry/default/components/card.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "type": "registry:block",
+            "title": "button",
+            "description": "A simple hello world component.",
+            "files": [
+                {
                     "path": "registry/default/components/button.tsx",
                     "type": "registry:component"
                 }
             ]
         }
-    ],
-    "scripts": {
-        "registry:build": "shadcn build"
-    }
+    ]
 }
